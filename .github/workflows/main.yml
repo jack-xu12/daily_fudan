@@ -2,7 +2,7 @@ name: "Daily Fudan"
 
 on:
   schedule:
-    - cron: "* 23 * * *"  # scheduled at 06:00 (UTC+8) everyday ,beijing time is UTC plus 8，* is a random number.
+    - cron: "* 23 * * *"  # scheduled at 07:00 (UTC+8) everyday ,beijing time is UTC plus 8，* is a random number.
   workflow_dispatch:
 
 env:
